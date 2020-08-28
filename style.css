@@ -1,0 +1,33 @@
+body{
+    font-family: 'Lobster Two', cursive;
+    background: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.heading{
+    font-size: 20px;
+    width: 100%;
+    margin-top: 0px;
+}
+#noofobjects , #status{
+    font-size: 15px;
+}
+.start_button{
+    font-size: 18px;
+}
+.copy_right_footer{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(rgb(135, 135, 255)50%, rgb(97, 210, 255)100%);
+    line-height: 2;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+canvas{
+    border: 5px double white;
+    box-shadow: 10px 10px 10px white;
+    margin-top: 90px;
+}
